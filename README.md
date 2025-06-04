@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Founder Hub
+
+A fullstack web application built with Next.js and Sanity CMS for connecting founders and showcasing startups.
+
+![FounderHub Screenshot](https://rafiframadhana.site/assets/founder-hub-MNH2k0ZC.png)
+
+## Tech Stack
+
+- **Frontend**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **CMS**: Sanity.io
+- **Authentication**: NextAuth.js
+- **UI Components**: Custom components with shadcn/ui
+- **TypeScript**: For type safety and better developer experience
+
+## Features
+
+- 🔒 User authentication and authorization
+- 👥 User profiles
+- 🚀 Startup profiles with detailed information
+- 🔍 Search functionality for startups
+- ✨ Modern and responsive UI
+- 📝 Content management through Sanity Studio
+- 🎨 Custom font integration (Work Sans)
+
+## Project Structure
+
+```
+app/                  # Next.js app directory
+├── (root)/           # Main application routes
+├── api/              # API routes
+└── studio/          # Sanity Studio integration
+
+components/           # React components
+├── ui/              # Reusable UI components
+└── ...              # Feature-specific components
+
+lib/                  # Utility functions and shared logic
+sanity/              # Sanity CMS configuration and schemas
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   - Create a `.env.local` file
+   - Add necessary environment variables for Next.js and Sanity
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Sanity Studio
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Access the Sanity Studio at `http://localhost:3000/studio` to manage content.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### User Features
+- Create and manage user profiles
+- View other users' profiles
+- Authentication with NextAuth.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Startup Features
+- Create startup profiles
+- View startup details
+- Search and filter startups
+- Update startup information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
