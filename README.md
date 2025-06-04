@@ -2,7 +2,7 @@
 
 A fullstack web application built with Next.js and Sanity CMS for connecting founders and showcasing startups.
 
-![FounderHub Screenshot](https://rafiframadhana.site/assets/founder-hub-MNH2k0ZC.png)
+![FounderHub Screenshot](https://i.imgur.com/msTZIxx.png)
 
 ## Tech Stack
 
