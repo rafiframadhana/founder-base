@@ -2,7 +2,7 @@
 
 A fullstack web application built with Next.js and Sanity CMS for connecting founders and showcasing startups.
 
-![FounderBase Screenshot](https://i.imgur.com/msTZIxx.png)
+![FounderBase Screenshot](https://i.imgur.com/YZDxeeI.png)
 
 ## Tech Stack
 
