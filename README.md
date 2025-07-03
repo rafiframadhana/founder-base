@@ -1,8 +1,8 @@
-# Founder Hub
+# Founder Base
 
 A fullstack web application built with Next.js and Sanity CMS for connecting founders and showcasing startups.
 
-![FounderHub Screenshot](https://i.imgur.com/msTZIxx.png)
+![FounderBase Screenshot](https://i.imgur.com/msTZIxx.png)
 
 ## Tech Stack
 

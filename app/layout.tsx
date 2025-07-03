@@ -51,7 +51,7 @@ const workSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "FounderHub",
+  title: "FounderBase",
   description: "Pitch, Vote and Grow",
 };
 
